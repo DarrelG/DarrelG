@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WearHouse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="wh.ico">
+</head>
+<body class="body">
+    
+    <div class="header">
+        <div>
+            <a href="" style="text-decoration: none;"><h4 style="font-family: Georgia, 'Times New Roman', Times, serif;">WearHouse</h4></a>
+        </div>
+        <div id="hidden" class="hidden" onclick="showStuff()">
+            <nav class="nav">
+            <div class="content1">
+                <div class="Category">
+                    <p>Category</p>
+                </div>
+                <div class="About">
+                    <p>About Us</p>
+                </div>
+            </div>
+            <div id="content2">
+                <div class="Login">
+                    <p>Login</p>
+                </div>
+                <div class="Register">
+                    <p>Register</p>
+                </div>
+            </div>
+            </nav>
+        </div>
+        <div id="logReg">
+            <p>Login</p>
+            <p>Register</p>
+        </div>
+        <img src="menu.png" alt="" style="" class="menu" id="slider" onclick="showStuff()">
+    </div>
+
+    <div class="footer">
+
+    </div>
+
+</body>
+
+<script>
+    function showStuff(){
+        let show = document.getElementById('slider');
+        let hidden = document.getElementById('hidden');
+        if(hidden.style.display == "block"){
+            hidden.style.display = "none";
+        }else if(show.style.display == "block"){
+            show.style.display = "none";
+        }else {
+			hidden.style.display = "block";
+            hidden.style.animation = "mymove2 0.5s";
+		}
+    }
+</script>
+
+</html>
