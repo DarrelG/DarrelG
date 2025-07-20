@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @DarrelG
 - 👀 I’m interested in Coding
-- 🌱 I’m currently learning Front end, back end, software engineering, anything about coding. Iam new
+- 🌱 I’m currently learning Front end, back end, software engineering, anything about coding.
 - 💞️ I’m looking to collaborate on none.
 - 📫 How to reach me via email
 
